@@ -2,9 +2,21 @@
 h6.category {
   color: #fff;
   background-color: #ad4200;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 10px;
+  font-size: .75em;
+  text-transform: uppercase;
+  /* 16 * 0.0625 = 1px */
+  letter-spacing: 0.0625em;
+  vertical-align: bottom;
 
 }
-
-
+.outline {
+  border: 1px solid #bbb;
+}
+.carousel h5 {
+  padding: 5px 5px 5px 10px;
+}
+.carousel .button {
+  margin: 5px 20px 5px 5px;
+}
 
